@@ -48,7 +48,9 @@ export default function Chat() {
     }>
   >([]);
   const [databaseSchema, setDatabaseSchema] = useState("");
-  const [databaseUrl, setDatabaseUrl] = useState<string | null>(null);
+  const [databaseUrl, setDatabaseUrl] = useState<string | null>(
+    "postgresql://postgres:postgres@localhost:5432/postgres",
+  );
   const [input, setInput] = useState("");
   const toast = useToast();
   const generateChat = api.exampleRouter.getResponse.useMutation({

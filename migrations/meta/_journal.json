@@ -1,13 +1,1 @@
-{
-  "version": "5",
-  "dialect": "pg",
-  "entries": [
-    {
-      "idx": 0,
-      "version": "5",
-      "when": 1696117882089,
-      "tag": "0000_calm_kree",
-      "breakpoints": true
-    }
-  ]
-}
+{"version":"5","dialect":"pg","entries":[]}
